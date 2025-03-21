@@ -1,0 +1,169 @@
+/* font - prata and work sans */
+
+body{
+    margin: 0;
+    --color1:#eff9ff;
+    --color2:#071b5a;
+    --color3:#181eff;
+    --color4:#0c4ab2;
+    font-family: Poppins;
+}
+
+/*start of nav bar */
+.nav{
+    display: flex;
+    min-height: 80px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bars{
+    display: flex;
+    justify-content: space-evenly;
+    width:50%;
+}
+.bars a{
+    text-decoration: none;
+    color: black;
+}
+/* end of nav bar */
+/* start of header */
+.header{
+    background-image: url(images/background.jpg);
+    width: 100%;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.booknow{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+    border:2px solid var(--color2);
+}
+.booknow:hover{
+    background-color: black;
+    color: white;
+}
+.text1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 800px;
+    justify-content:center;
+    align-items: center;
+}
+.text1 span{
+    font-family: Prata;
+    color: var(--color2);
+
+}
+.span1{
+    font-size:88px;
+}
+.span2{
+    font-size:110px;
+}
+/* end of header */
+
+/* start of review section */
+.text2{
+    background-color:var(--color1);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 200px;  
+  
+}
+
+.div1{
+    text-align: center;
+    background-color: rgb(56, 112, 138);
+    padding: 10px;
+    border-radius: 20px;
+}
+.div1:hover{
+    transform: scale(1.10);
+    border: 2px solid var(--color2);
+}
+
+.text-primary{
+    color:var(--color2);
+}
+
+/* end of review section */
+.img2{
+    width: 300px;
+    height: 300px;
+    border: 2px solid var(--color2);
+    border-radius: 10px;
+}
+.service{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 500px; 
+}
+.inner1{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; 
+    text-align: center;
+}
+
+/* end of service part */
+
+/* start of why choose us */
+
+.common{
+    background-color: var(--color1);
+    min-height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.img3{
+    width:400px;
+    height: 400px;
+    border-radius: 30px;
+    border: 2px solid var(--color2);
+}
+.text3{
+    width: 600px;
+    display: flex;
+    flex-direction:column;
+}
+.text3 div{
+    padding: 20px;
+}
+hr{
+    transform: rotate(90deg); 
+    border: 1px solid var(--color2);
+}
+/* end of why choose us */
+
+
+/* start of whatsapp logo */
+.whatsapp{
+    position: fixed;
+    top:85%;
+    left: 92%;
+}
+.whatsapp img{
+    width: 80px;
+    height: 80px;
+}
+/* end of whatsapp logo */
